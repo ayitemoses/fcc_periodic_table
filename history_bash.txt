@@ -1,0 +1,164 @@
+    1  mkdir periodic_table
+    2  cd periodic_table/
+    3  git init 
+    4  git status 
+    5  git checkout -b main
+    6  git status 
+    7  touch element.sh
+    8  git sta
+    9  git status 
+   10  git status 
+   11  git add element.sh 
+   12  git status 
+   13  git commit -m "Initial commit"
+   14  git status 
+   15  chmod +x element.sh 
+   16  ./element.sh 
+   17  ./element.sh 1
+   18* 
+   19  git restore element.sh
+   20  git checkout -b feat/validate-input
+   21  git status 
+   22  ./element.sh
+   23  chmod +x element.sh 
+   24  ./element.sh
+   25  ./element.sh 1 
+   26  ./element.sh 1 
+   27  ./element.sh
+   28  ./element.sh al
+   29  ./element.sh al
+   30  ./element.sh
+   31  ./element.sh q
+   32  ./element.sh
+   33  ./element.sh
+   34  ./element.sh A
+   35  ./element.sh A
+   36  ./element.sh 12
+   37  ./element.sh 1
+   38  ./element.sh 8
+   39  ./element.sh
+   40  git status 
+   41  git add .
+   42  git commit -m "feat: add validate input"
+   43  git status 
+   44  git checkout main 
+   45  git merge feat/validate-input 
+   46  git branch -d feat/validate-input 
+   47  git status 
+   48  git status 
+   49  git checkout -b refactor/type-column-properties
+   50  git status 
+   51  git add element.sh 
+   52  git commit -m "refactor: remove type column from properties table"
+   53  git status 
+   54  git checkout main 
+   55  git merge refactor/type-column-properties 
+   56  git status 
+   57  git branch -d refactor/type-column-properties 
+   58  git status 
+   59  git checkout -b fix/remove-non-existent-element
+   60  git status 
+   61  git add .
+   62  git commit -m "fix: remove non existent element from tables elements and properties"
+   63  git status 
+   64  git checkout main 
+   65  git merge
+   66  git merge fix/remove-non-existent-element 
+   67  git branch -d fix/remove-non-existent-element 
+   68  git status 
+   69  git log --oneline
+   70  git status 
+   71  ./element.sh 
+   72  ./element.sh 1
+   73  git checkout -b feat/add-validate-number-input
+   74  ./element.sh 1
+   75  ./element.sh
+   76  ./element.sh 
+   77  ./element.sh P
+   78  ./element.sh Pf
+   79  ./element.sh 1
+   80  ./element.sh H
+   81  ./element.sh H
+   82  ./element.sh Hydrogen
+   83  ./element.sh He
+   84  ./element.sh 2
+   85  ./element.sh ali
+   86  ./element.sh ali
+   87  ./element.sh 1
+   88  git status 
+   89  git add .
+   90  git commit -m "feat: add validate number and requete"
+   91  git checkout main 
+   92  git merge feat/add-validate-number-input 
+   93  git branch -d feat/add-validate-number-input 
+   94  git status 
+   95  history > history.txt
+   96  history > history_bash.txt
+git status 
+   98  git status 
+   99  git branch 
+  100  git checkout -b main 
+  101  git log --oneline
+  102  git checkout -b fix/query
+  103  ./element.sh
+  104  git status 
+  105  ls -l
+  106  ls -lah
+  107  rm -fr .git
+  108  ls
+  109  git si
+  110  git status 
+  111  cd periodic_table/
+  112  git status 
+  113  git checkout -b fix/query
+  114  ./element.sh 
+  115  ./element.sh 1
+  116  ./element.sh ki
+  117  ./element.sh ki
+  118  ./element.sh ki
+  119  ./element.sh 1
+  120  ./element.sh 1
+  121  ./element.sh H
+  122  ./element.sh H
+  123  ./element.sh H
+  124  ./element.sh Hydrogen
+  125  cd ..
+  126  ls -la
+  127  cd periodic_table/
+  128  ls -la
+  129  ls -la /tmp
+  130  cd ..
+  131  ls -la /tmp
+  132  find ~/.vscode-server/data/User/History -type f 2>/dev/null | head -50
+  133  find ~/.vscode-server -type f | head -50
+  134  ls ~/.vscode-server/data/User/History
+  135  ls ~/.local/share/Trash/files
+  136  sudo ls ~/.local/share/Trash/files
+  137  ls ~/.vscode-server/data/User
+  138  sudo ls ~/.vscode-server/data/User
+  139  find / -type d -name "History" 2>/dev/null | head -20
+  140  find / -type d -name ".vscode-server" 2>/dev/null
+  141  cd /home/camper/.vscode-remote/data/User/History
+  142  find /home/camper/.vscode-remote/data/User/History -type f | head -100
+  143  find /home/camper/.vscode-remote/data/User/History -type f | grep -i "history"
+  144  find /home/camper/.vscode-remote/data/User/History -type f \( -name "history_bash.txt" -o -name "history_psql.txt" \)
+  145  find / -type f -name "history_bash.txt" 2>/dev/nullfind / -type f -name "history_bash.txt" 2>/dev/nullfind / -type f -name "history_bash.txt" 2>/dev/null
+  146  sudo find / -type f -name "history_bash.txt" 2>/dev/null
+  147  history | tail -200
+  148  history cd ..
+  149  cd ..
+  150  cd ..
+  151  cd ..
+  152  cd \
+  153  ls
+  154  ls
+  155  pwd
+  156  ls
+  157  cd ..
+  158  ls
+  159  cd ..
+  160  ls
+  161  cd workspace
+  162  ls
+  163  cd project/
+  164  history > history_bash.txt
